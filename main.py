@@ -286,7 +286,7 @@ class MyServer(BaseHTTPRequestHandler):
                 <div class="row text-center">
                     <div class="col-4">
                         <div class="card mb-4 rounded-3 shadow-sm">
-                            <div class="card-header">
+                            <div class="card-header py-3">
                                 <h4 class="my-0 fw-normal">Товар 1</h4>
                             </div>
                             <div class="card-body">
@@ -315,11 +315,11 @@ class MyServer(BaseHTTPRequestHandler):
                             </div>
                         </div>
                     </div>
-                    <div class="row ">
-                        <div class="row text-center ">
+                    <div class="row">
+                        <div class="row text-center">
                             <div class="col-12 ">
                                 <div class="card mb-4 rounded-3 shadow-sm">
-                                    <div class="card-header">
+                                    <div class="card-header py-3">
                                         <h4 class="my-0 fw-normal">FAQ</h4>
                                     </div>
                                     <div class="card-body">
@@ -354,35 +354,6 @@ class MyServer(BaseHTTPRequestHandler):
                             </div>
                         </div>
                     </div>
-                    <table class="table ">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-        </tr>
-    </tbody>
-</table>
                 </div>
             </main>
 
